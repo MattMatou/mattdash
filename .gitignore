@@ -1,0 +1,33 @@
+# Config perso — contient le token Discord, JAMAIS dans git
+*.json
+config.json
+.config/
+
+# Exports HTML — peuvent être lourds
+*.html
+Log/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Paquets build
+*.deb
+dist/
+build/
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
